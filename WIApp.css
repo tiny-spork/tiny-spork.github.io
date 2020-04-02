@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Sen:wght@700&display=swap');
+
+body {
+    background-color: #022E37;
+}
+#container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:white;
+    background-image: url("");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+h2 {
+    font-size: 30pt;
+    text-align: center;
+    background-color: #022E37;
+    color:white;
+    height: 10%;
+    font-family: 'Gotu', sans-serif;
+    letter-spacing: 6pt;
+}
+
+#text {
+    display: flex;
+    color: #022E37;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 60pt;
+    transform: translate(0, -5%);
+    z-index: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+/*#56A494
+#E2B476
+#F58F81
+#8ECB7E
+#022E37
+#F37425
+#E7DCC0
+#A36B5A
+#834E40
+#DEAF25
